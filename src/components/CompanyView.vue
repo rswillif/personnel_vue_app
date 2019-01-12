@@ -52,7 +52,6 @@ export default {
         await this.showCompanyCost(this.model.company)
       }
       this.model = {} // reset form
-      // await this.refreshResults()
     },
     async showCompanyCost () {
       let personsFromCompany = await api.getPersons()
@@ -61,7 +60,6 @@ export default {
       if (personsFromCompany.length > 0 && this.company !== undefined) {
         personsFromCompany.forEach((person) => {
           if (person.company.toLowerCase() === this.company.toLowerCase()) {
-            console.log(`sum: ${JSON.stringify(sum)}`)
             sum = person.salary + sum
           }
         })
