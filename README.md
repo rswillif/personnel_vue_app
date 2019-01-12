@@ -1,4 +1,4 @@
-# company_vue_app
+# personnel_vue_app
 
 > A Vue.js project by Rob Williford => https://github.com/rswillif
 
