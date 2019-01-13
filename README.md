@@ -1,6 +1,6 @@
 # personnel_vue_app
 
-> A Vue.js project by Rob Williford => https://github.com/rswillif
+> A Vue.js project by @rswillif
 
 ## Build Setup
 
